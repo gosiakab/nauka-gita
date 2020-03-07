@@ -1,0 +1,22 @@
+/* Global */
+
+$color-main: #1e272e;
+$color-intro: #fff;
+$font-text: "Open Sans Condensed", sans-serif;
+$font-header: "Amatic SC", cursive;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background: #fff;
+  color: $color-bright;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: $font-text;
+}
